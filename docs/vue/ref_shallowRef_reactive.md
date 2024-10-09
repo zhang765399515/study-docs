@@ -4,8 +4,7 @@
 
 <CustomLink title='Vue3' desc='渐进式 JavaScript 框架' href='https://cn.vuejs.org/api/reactivity-core.html#ref'/>
 
-在我们公司里，我发现对<font color=#9898E5> ref </font>和<font color=#9898E5> reactive </font>混用，沟通后发现认为的使用后差异是<font color=#9898E5> ref </font>和<font color=#9898E5> reactive </font>就是差一个<font color=#9898E5> .value </font>值，如果使用<font color=#9898E5> Obj </font>，就用<font color=#9898E5> reactive </font>来绑定，如果是<font color=#9898E5> .value </font>Number，String </font>等就用<font color=#9898E5> ref </font>，而<font color=#9898E5> shallowRef </font>甚至都没用过，所以做一下记录，避免以后自己忘记正确使用方式
-要区分<font color=#9898E5> ref，reactive，shallowRef </font>其实很简单，按照以下规则使用，保证程序易读性和可编写性都会得到很大提高
+在我们公司里，我发现对<font color=#9898E5> ref </font>和<font color=#9898E5> reactive </font>混用，沟通后发现认为的使用后差异是<font color=#9898E5> ref </font>和<font color=#9898E5> reactive </font>就是差一个<font color=#9898E5> .value </font>值，如果使用<font color=#9898E5> Obj </font>，就用<font color=#9898E5> reactive </font>来绑定，如果是<font color=#9898E5> Number，String </font>等就用<font color=#9898E5> ref </font>，而要区分<font color=#9898E5> ref，reactive，shallowRef </font>其实很简单，按照以下规则使用，保证程序易读性和可编写性都会得到很大提高
 
 只用ref声明响应式变量
 只有当第三方库的操作对象需要具备响应性时，才使用shallowRef
