@@ -21,6 +21,6 @@
     "docs",
     "docs/.vitepress/components/*.vue",
     "docs/.vitepress/*.ts"
-  ],
+, "docs/.vitepress/sidebar/index.ts"  ],
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }

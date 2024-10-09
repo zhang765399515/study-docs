@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import {  github, name, site } from './meta'
-import sidebar from './sidebar'
+import sidebar from './sidebar/index'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,6 +23,11 @@ export default defineConfig({
           { text: '计划', link: '/summaryPlanning/planning/' },
         ]
       },
+      { text: "🔥 前端框架",
+        items: [
+          { text: 'Vue', link: '/vue/' },
+        ]
+      },
       { text: "总结/计划",
         items: [
           { text: '总结', link: '/summaryPlanning/summary/' },
@@ -36,9 +41,7 @@ export default defineConfig({
         ]
       },
     ],
-
     sidebar,
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],

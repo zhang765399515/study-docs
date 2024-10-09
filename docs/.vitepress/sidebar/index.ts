@@ -1,11 +1,4 @@
-/*
- * @作者: 张峻霖
- * @Date: 2023-08-02 16:00:06
- * @LastEditTime: 2024-08-12 10:54:14
- * @Description:
- * @FilePath: \study-docs\docs\.vitepress\sidebar.ts
- */
-
+import vueConfig from "./webFrame/vue/config";
 export default {
   "/": [
   ],
@@ -13,7 +6,7 @@ export default {
   "/summaryPlanning/planning/": sidebarPlanning(),
   "/programming/actualCombat/": actualCombatProgram(),
   "/programming/study/": studyProgram(),
-  
+  "/vue/": vueConfig,
 };
 
 function sidebarSummary(){
@@ -84,6 +77,7 @@ function studyProgram() {
         { text: "介绍", link: "/programming/study/" },
         {
           text: "常用css",
+          collapsed: false,
           items: [
             {
               text: "标签包含值",

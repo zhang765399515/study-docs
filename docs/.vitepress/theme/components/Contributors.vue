@@ -13,7 +13,7 @@ function reName(name: string) {
 }
 
 function getAvatarUrl(name: string) {
-  return `https://github.com/${reName(name)}.png`
+  return `https://github.com/zhang765399515.png`
 }
 function getGithubLink(name: string) {
   return `https://github.com/${reName(name)}`

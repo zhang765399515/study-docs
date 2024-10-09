@@ -47,7 +47,8 @@ export function MarkdownTransform(): Plugin {
 }
 
 export async function getDocsMarkdown() {
-  const ContributorsSection = `## Contributors
+  // const ContributorsSection = `## Contributors
+  const ContributorsSection = `
   <Contributors/>`
 
   const CopyRightSection = `
