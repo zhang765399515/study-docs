@@ -1,67 +1,37 @@
 {
-  "hash": "c56a7033",
-  "configHash": "e1392405",
-  "lockfileHash": "3267dc8e",
-  "browserHash": "0b58642e",
+  "hash": "ac54a3e4",
+  "configHash": "de133adb",
+  "lockfileHash": "92d79d7e",
+  "browserHash": "4da303d8",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "8856ba04",
+      "fileHash": "5d0b7a6f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "29de28ac",
+      "fileHash": "14be409f",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "a29fd118",
+      "fileHash": "3a323490",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "5b501347",
+      "fileHash": "58965776",
       "needsInterop": false
-    },
-    "dayjs": {
-      "src": "../../../../node_modules/dayjs/dayjs.min.js",
-      "file": "dayjs.js",
-      "fileHash": "e4487c59",
-      "needsInterop": true
-    },
-    "dayjs/plugin/utc.js": {
-      "src": "../../../../node_modules/dayjs/plugin/utc.js",
-      "file": "dayjs_plugin_utc__js.js",
-      "fileHash": "61811d06",
-      "needsInterop": true
-    },
-    "dayjs/plugin/relativeTime": {
-      "src": "../../../../node_modules/dayjs/plugin/relativeTime.js",
-      "file": "dayjs_plugin_relativeTime.js",
-      "fileHash": "74853733",
-      "needsInterop": true
-    },
-    "dayjs/locale/zh-cn": {
-      "src": "../../../../node_modules/dayjs/locale/zh-cn.js",
-      "file": "dayjs_locale_zh-cn.js",
-      "fileHash": "7435c869",
-      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-EMFERMFV": {
-      "file": "chunk-EMFERMFV.js"
-    },
     "chunk-CZX7GLWV": {
       "file": "chunk-CZX7GLWV.js"
-    },
-    "chunk-BUSYA2B4": {
-      "file": "chunk-BUSYA2B4.js"
     }
   }
 }
