@@ -1,14 +1,3 @@
-<!--
- * @作者: 张峻霖
- * @Date: 2023-11-23 10:47:47
- * @LastEditTime: 2023-11-23 11:14:48
- * @Description: 
- * @FilePath: \chodocs\docs\program\npm\npm.md
--->
----
-作者: "Junlin Zhang"
-date: 2023-11-13
----
 
 # NPM 发布包记录
 

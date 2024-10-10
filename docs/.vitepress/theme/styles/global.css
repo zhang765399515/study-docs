@@ -2,3 +2,8 @@ iframe {
   width: 100%;
   min-height: 600px;
 }
+html::-webkit-scrollbar {
+
+  width: 0;
+
+}

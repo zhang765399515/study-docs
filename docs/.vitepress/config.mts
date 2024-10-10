@@ -19,13 +19,12 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "🔥 专栏",
         items: [
-          { text: '总结', link: '/summaryPlanning/summary/' },
-          { text: '计划', link: '/summaryPlanning/planning/' },
         ]
       },
       { text: "🔥 前端框架",
         items: [
           { text: 'Vue', link: '/vue/' },
+          { text: 'TypeScript', link: '/TS/' },
         ]
       },
       { text: "总结/计划",
