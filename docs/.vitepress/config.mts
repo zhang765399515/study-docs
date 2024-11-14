@@ -1,9 +1,10 @@
-import { defineConfig } from 'vitepress'
+import { defineConfigWithTheme } from 'vitepress'
 import {  github, name, site } from './meta'
 import sidebar from './sidebar/index'
-
+import escookConfig from '@escook/vitepress-theme/config'
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default defineConfigWithTheme({
+  extends: escookConfig,
   title: "Junlin Docs",
   lang: "zh-CN",
   description: "Front-end learning document collection",
@@ -12,6 +13,7 @@ export default defineConfig({
     root: { label: "简体中文", lang: "zh-CN" },
   },
   themeConfig: {
+    confetti: true,
     outlineTitle: '导航栏',
     i18nRouting: true,
     // https://vitepress.dev/reference/default-theme-config
@@ -19,6 +21,7 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "🔥 专栏",
         items: [
+          { text: '面试专栏', link: '/vue/' },
         ]
       },
       { text: "🔥 前端框架",

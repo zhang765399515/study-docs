@@ -14,7 +14,7 @@ function reName(name: string) {
   return name === 'Junlin Zhang' ? 'Junlin Zhang' : name
 }
 
-const pageHref = location.href
+const pageHref = window.location.href
 
 function getGithubLink(name: string) {
   return `https://github.com/${reName(name)}`

@@ -1,37 +1,58 @@
 {
-  "hash": "c56a7033",
+  "hash": "bec02085",
   "configHash": "e1392405",
-  "lockfileHash": "3267dc8e",
-  "browserHash": "f9752561",
+  "lockfileHash": "ce02b62f",
+  "browserHash": "969d71f0",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "7f370dcf",
+      "fileHash": "82f0285c",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "0713558d",
+      "fileHash": "6688d6fb",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "936b7475",
+      "fileHash": "69b8416f",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "9fea8bec",
+      "fileHash": "5ca4fb49",
+      "needsInterop": false
+    },
+    "@escook/vitepress-theme": {
+      "src": "../../../../node_modules/@escook/vitepress-theme/dist/index.js",
+      "file": "@escook_vitepress-theme.js",
+      "fileHash": "4e253924",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-CZX7GLWV": {
-      "file": "chunk-CZX7GLWV.js"
+    "EscookMusicBall-BkDBnoZh-CC4IGBV5": {
+      "file": "EscookMusicBall-BkDBnoZh-CC4IGBV5.js"
+    },
+    "chunk-O3YQPVDG": {
+      "file": "chunk-O3YQPVDG.js"
+    },
+    "EscookHomeFeatureBefore-D_e5sYrO-2ZBQS3UJ": {
+      "file": "EscookHomeFeatureBefore-D_e5sYrO-2ZBQS3UJ.js"
+    },
+    "EscookConfetti-BU05OPRV-7IQ6UN2A": {
+      "file": "EscookConfetti-BU05OPRV-7IQ6UN2A.js"
+    },
+    "chunk-YCYCIHK5": {
+      "file": "chunk-YCYCIHK5.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
     }
   }
 }
