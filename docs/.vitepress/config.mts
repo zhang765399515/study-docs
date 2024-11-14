@@ -25,6 +25,7 @@ export default defineConfig({
         items: [
           { text: 'Vue', link: '/vue/' },
           { text: 'TypeScript', link: '/TS/' },
+          { text: 'JS', link: '/JS/' },
         ]
       },
       { text: "总结/计划",

@@ -1,5 +1,6 @@
 import vueConfig from "./webFrame/vue/config";
 import TS from "./webFrame/TS/config";
+import JS from "./webFrame/JS/config";
 import actualCombat from "./actualCombat/index";
 import study from "./study/index";
 import summary from "./summaryPlanning/summary";
@@ -12,4 +13,5 @@ export default {
     "/programming/study/": study,
     "/vue/": vueConfig,
     "/TS/": TS,
+    "/JS/": JS,
 };
