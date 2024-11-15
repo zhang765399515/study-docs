@@ -8,13 +8,7 @@ export default defineConfigWithTheme({
   title: "Junlin Docs",
   lang: "zh-CN",
   description: "Front-end learning document collection",
-  lastUpdated: {
-    text: 'Updated at',
-    formatOptions: {
-      dateStyle: 'full',
-      timeStyle: 'medium'
-    }
-  },
+  lastUpdated: true,
   locales: {
     root: { label: "简体中文", lang: "zh-CN" },
   },

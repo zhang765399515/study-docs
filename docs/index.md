@@ -6,6 +6,9 @@ hero:
   name: "Junlin Docs"
   text: "Personal learning record"
   tagline: 个人学习记录
+  image:
+    src: /it.svg
+    alt: Junlin Zhang
   actions:
     - theme: brand
       text: 学习主页
