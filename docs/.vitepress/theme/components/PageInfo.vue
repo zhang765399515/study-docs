@@ -19,11 +19,13 @@ if (frontmatter.value?.author)
 const lastUpdatedDate = computed(() => new Date(page.value.lastUpdated!))
 const isoDatetime = computed(() => lastUpdatedDate.value.toISOString())
 const timeFormNow = getFromNow(isoDatetime.value)
-console.log('name：timeFormNow',timeFormNow);
+const title = document.title
+console.log('name：timeFormNow',title);
 </script>
 
 <template>
   <div >
+    <br/>
     <section
       class="border-b-1 border-[var(--vp-c-divider)] w-full border-b-solid pb-3 flex gap-2 mb-3 flex-wrap max-w-[85%] text-sm"
     >

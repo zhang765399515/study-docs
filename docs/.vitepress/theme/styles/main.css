@@ -38,3 +38,6 @@ html.dark {
 .medium-zoom-image {
   z-index: 21;
 }
+.content-body{
+  background: none;
+}
