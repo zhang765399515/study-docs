@@ -19,12 +19,13 @@ if (frontmatter.value?.author)
 const lastUpdatedDate = computed(() => new Date(page.value.lastUpdated!))
 const isoDatetime = computed(() => lastUpdatedDate.value.toISOString())
 const timeFormNow = getFromNow(isoDatetime.value)
+console.log('name：timeFormNow',timeFormNow);
 </script>
 
 <template>
-  <div>
+  <div >
     <section
-      class="border-b-1 border-[var(--vp-c-divider)] w-full border-b-solid mt-6 pb-3 flex gap-2 mb-3 flex-wrap max-w-[85%] text-sm"
+      class="border-b-1 border-[var(--vp-c-divider)] w-full border-b-solid pb-3 flex gap-2 mb-3 flex-wrap max-w-[85%] text-sm"
     >
       <div class="flex gap-1 items-center">
         <octicon:feed-person-16 />

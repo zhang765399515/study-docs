@@ -8,12 +8,18 @@ export default defineConfigWithTheme({
   title: "Junlin Docs",
   lang: "zh-CN",
   description: "Front-end learning document collection",
-  lastUpdated: true,
+  lastUpdated: {
+    text: 'Updated at',
+    formatOptions: {
+      dateStyle: 'full',
+      timeStyle: 'medium'
+    }
+  },
   locales: {
     root: { label: "简体中文", lang: "zh-CN" },
   },
   themeConfig: {
-    confetti: true,
+    confetti: false,
     outlineTitle: '导航栏',
     i18nRouting: true,
     // https://vitepress.dev/reference/default-theme-config
@@ -21,7 +27,7 @@ export default defineConfigWithTheme({
       { text: "主页", link: "/" },
       { text: "🔥 专栏",
         items: [
-          { text: '面试专栏', link: '/vue/' },
+          { text: '面试专栏', link: '/interview/' },
         ]
       },
       { text: "🔥 前端框架",
@@ -31,10 +37,9 @@ export default defineConfigWithTheme({
           { text: 'JS', link: '/JS/' },
         ]
       },
-      { text: "总结/计划",
+      { text: "总结",
         items: [
-          { text: '总结', link: '/summaryPlanning/summary/' },
-          { text: '计划', link: '/summaryPlanning/planning/' },
+          { text: '2024总结', link: '/summary/2024/' },
         ]
       },
       { text: "编程",

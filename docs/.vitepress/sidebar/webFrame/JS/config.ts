@@ -8,5 +8,15 @@ export default [
                 link: "/JS/advancedUsage",
             }
         ],
-    },
+        
+    },{
+        text: "设计模式",
+        collapsed: false,
+        items: [
+            {
+                text: "单例模式",
+                link: "/JS/designPatterns/singletonPattern",
+            }
+        ],
+    }
 ];

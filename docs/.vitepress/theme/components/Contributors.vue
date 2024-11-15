@@ -33,7 +33,7 @@ function isNotEmpty(arr: string | string[]) {
       {{ contributor }}
     </div>
   </div>
-  <div v-else class="flex gap-2 items-center">
+  <div v-else class="flex gap-2 items-center" style="margin-top: 120px;">
     <a :href="getGithubLink(defaultAuthor)" rel="noreferrer" target="_blank">
       <img :src="getAvatarUrl(defaultAuthor)" class="w-8 h-8 rounded-full">
     </a>

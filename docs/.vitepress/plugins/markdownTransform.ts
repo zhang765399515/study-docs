@@ -39,7 +39,7 @@ export function MarkdownTransform(): Plugin {
       code = replacer(code, footer, 'FOOTER', 'tail')
       const { readTime, words } = getReadingTime(code)
       code = code
-        .replace(/(#\s.+?\n)/, `$1\n\n<PageInfo readTime="${readTime}" words="${words}"/>\n`)
+        .replace(/^/, `\n\n<PageInfo readTime="${readTime}" words="${words}"/>\n`)
 
       return code
     },
@@ -47,9 +47,8 @@ export function MarkdownTransform(): Plugin {
 }
 
 export async function getDocsMarkdown() {
-  // const ContributorsSection = `## Contributors
-  const ContributorsSection = `
-  <Contributors/>`
+  // const ContributorsSection = `## Contributors1
+  const ContributorsSection = `## <Contributors/>`
 
   const CopyRightSection = `
   <CopyRight/>`
