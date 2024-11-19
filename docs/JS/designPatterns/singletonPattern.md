@@ -105,7 +105,7 @@ b.getValue();//此时输出的是   b
 单例模式有很多种实现方式，并且不同的实现方式有不同的适用场景，应该通过不同的业务需求灵活来编写代码。
 :::
 
-参考文献：
+# 参考文献：
 
 <CustomLink title='《设计模式在前端开发中的实践（十二）——单例模式》'  href='https://juejin.cn/post/7325800801040793637?searchId=20241116102055C39C443D65D2901A0E5B'/>
 <CustomLink title='《想成为中高级前端，必须理解这10种javascript设计模式》'  href='https://juejin.cn/post/7433277439634096168'/>

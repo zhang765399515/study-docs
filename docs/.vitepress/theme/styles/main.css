@@ -41,3 +41,6 @@ html.dark {
 .content-body{
   background: none;
 }
+.custom-block.tip code{
+  width: 100%;
+}

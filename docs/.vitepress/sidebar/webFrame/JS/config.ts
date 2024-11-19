@@ -16,6 +16,10 @@ export default [
             {
                 text: "单例模式",
                 link: "/JS/designPatterns/singletonPattern",
+            },
+            {
+                text: "工厂模式",
+                link: "/JS/designPatterns/factoryPattern",
             }
         ],
     }
