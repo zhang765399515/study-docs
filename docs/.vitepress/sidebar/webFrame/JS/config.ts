@@ -20,6 +20,10 @@ export default [
             {
                 text: "工厂模式",
                 link: "/JS/designPatterns/factoryPattern",
+            },
+            {
+                text: "状态模式",
+                link: "/JS/designPatterns/statePattern",
             }
         ],
     }

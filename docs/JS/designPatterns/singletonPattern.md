@@ -22,8 +22,8 @@ UML图如下
 
 ```js
 const test = {
-  name: 'testName',
-  age: '18',
+   name: 'testName',
+   age: '18',
 };
 
 export default test;
@@ -33,10 +33,10 @@ Js也可以使用`class`这么写
 
 ```js
 class test{
- constructor(){
-    this.name='testName',
-    this.age= '18'
- }
+   constructor(){
+      this.name='testName',
+      this.age= '18'
+   }
 };
 
 export default test;
@@ -66,16 +66,16 @@ console.log(test.name，test.age);
 ```js
 const value = "a"
 class test{
- constructor(){
-    this.name='testName',
-    this.age= '18'
- }
- setValue(){
-  value = "b";
- }
- getValue(){
-  console.log(value)
- }
+   constructor(){
+      this.name='testName',
+      this.age= '18'
+   }
+   setValue(){
+      value = "b";
+   }
+   getValue(){
+      console.log(value)
+   }
 };
 
 export default test;
