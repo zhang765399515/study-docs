@@ -47,25 +47,25 @@ export default defineConfigWithTheme({
       { text: "主页", link: "/" },
       { text: "🔥 专栏",
         items: [
-          { text: '面试专栏', link: '/interview/' },
+          { text: '面试专栏', link: '/markdown/interview/' },
         ]
       },
       { text: "🔥 前端框架",
         items: [
-          { text: 'Vue', link: '/vue/' },
-          { text: 'TypeScript', link: '/TS/' },
-          { text: 'JS', link: '/JS/' },
+          { text: 'Vue', link: '/markdown/vue/' },
+          { text: 'TypeScript', link: '/markdown/TS/' },
+          { text: 'JS', link: '/markdown/JS/' },
         ]
       },
       { text: "总结",
         items: [
-          { text: '2024总结', link: '/summary/2024/' },
+          { text: '2024总结', link: '/markdown/summary/2024/' },
         ]
       },
       { text: "编程",
         items: [
-          { text: '实战', link: '/programming/actualCombat/' },
-          { text: '学习', link: '/programming/study/' },
+          { text: '实战', link: '/markdown/programming/actualCombat/' },
+          { text: '学习', link: '/markdown/programming/study/' },
         ]
       },
     ],

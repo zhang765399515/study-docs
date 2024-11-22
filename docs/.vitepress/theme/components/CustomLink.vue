@@ -46,11 +46,12 @@ const hrefSource = computed(() => {
     return 'bun'
   else if (/gitmind\.cn/.test(href))
     return 'gitmind'
+  else if (/markdown/.test(href))
+    return 'markdown'
   else return 'web'
 })
-console.log(hrefSource);
 
-const isExternal = computed(() => href && EXTERNAL_URL_RE.test(href))
+const isExternal = computed(() => href && (hrefSource.value=='markdown'||EXTERNAL_URL_RE.test(href)))
 
 const component = computed(() => {
   if (tag)
@@ -94,8 +95,9 @@ const component = computed(() => {
               <logos:vue v-if="hrefSource === 'vue'" class="w-7 h-7" />
               <skill-icons:stackoverflow-dark v-if="hrefSource === 'stackoverflow'" class="w-7 h-7" />
               <vscode-icons:file-type-bun v-if="hrefSource === 'bun'" class="w-7 h-7" />
-              <icon-park:add-web v-if="hrefSource === 'web'" class="w-7 h-7" />
               <ri:mind-map v-if="hrefSource === 'gitmind'" class="w-7 h-7" />
+              <vscode-icons:file-type-apib v-if="hrefSource === 'markdown'" class="w-7 h-7" />
+              <icon-park:add-web v-if="hrefSource === 'web'" class="w-7 h-7" />
               <span class="text-ellipsis w-full whitespace-nowrap overflow-hidden text-sm opacity-75 font-500">{{ href
               }}</span>
             </div>

@@ -5,11 +5,11 @@ export default [
         items: [
             {
                 text: "TypeScript的基础使用",
-                link: "/ts/base",
+                link: "/markdown/ts/base",
             },
             {
                 text: "函数重载",
-                link: "/ts/overload",
+                link: "/markdown/ts/overload",
             },
         ],
     },

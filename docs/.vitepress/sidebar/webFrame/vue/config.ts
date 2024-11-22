@@ -5,7 +5,7 @@ export default [
         items: [
             {
                 text: "Vue的ref、shallowRef、reactive的使用",
-                link: "/vue/ref_shallowRef_reactive",
+                link: "/markdown/vue/ref_shallowRef_reactive",
             },
         ],
     },

@@ -6,12 +6,12 @@ import study from "./study/index";
 import summary2024 from "./summary/2024/index";
 import interview from "./interview/index";//面试题
 export default {
-    "/": [],
-    "/interview/": interview,
-    "/summary/2024/": summary2024, //总结
-    "/programming/actualCombat/": actualCombat,
-    "/programming/study/": study,
-    "/vue/": vueConfig,
-    "/TS/": TS,
-    "/JS/": JS,
+    "/markdown/": [],
+    "/markdown/interview/": interview,
+    "/markdown/summary/2024/": summary2024, //总结
+    "/markdown/programming/actualCombat/": actualCombat,
+    "/markdown/programming/study/": study,
+    "/markdown/vue/": vueConfig,
+    "/markdown/TS/": TS,
+    "/markdown/JS/": JS,
 };

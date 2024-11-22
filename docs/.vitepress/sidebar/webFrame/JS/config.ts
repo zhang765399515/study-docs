@@ -5,7 +5,7 @@ export default [
         items: [
             {
                 text: "高级前端开发需要知道的 25 个 JavaScript 单行代码",
-                link: "/JS/advancedUsage",
+                link: "/markdown/JS/advancedUsage",
             }
         ],
         
@@ -15,15 +15,15 @@ export default [
         items: [
             {
                 text: "单例模式",
-                link: "/JS/designPatterns/singletonPattern",
+                link: "/markdown/JS/designPatterns/singletonPattern",
             },
             {
                 text: "工厂模式",
-                link: "/JS/designPatterns/factoryPattern",
+                link: "/markdown/JS/designPatterns/factoryPattern",
             },
             {
                 text: "状态模式",
-                link: "/JS/designPatterns/statePattern",
+                link: "/markdown/JS/designPatterns/statePattern",
             }
         ],
     }

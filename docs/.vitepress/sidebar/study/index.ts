@@ -5,11 +5,11 @@ export default [
         items: [
             {
                 text: "标签包含值",
-                link: "/programming/study/commonly/index",
+                link: "/markdown/programming/study/commonly/index",
             },
             {
                 text: "图片文字同时居中",
-                link: "/programming/study/imgAndFontCenter/index",
+                link: "/markdown/programming/study/imgAndFontCenter/index",
             },
         ],
     },
@@ -19,11 +19,11 @@ export default [
         items: [
             {
                 text: "Call理解",
-                link: "/programming/study/call-learn",
+                link: "/markdown/programming/study/call-learn",
             },
             {
                 text: "npm发布包",
-                link: "/programming/study/npm",
+                link: "/markdown/programming/study/npm",
             },
         ],
     },

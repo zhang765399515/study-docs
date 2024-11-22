@@ -5,7 +5,7 @@ export default [
         items: [
                     {
                         text: "数字类型度限制",
-                        link: "/interview/algorithm/numberLength",
+                        link: "/markdown/interview/algorithm/numberLength",
                     }
         ],
     },

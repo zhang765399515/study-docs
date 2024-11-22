@@ -38,6 +38,7 @@ declare module 'vue' {
     'Teenyicons:nextjsSolid': typeof import('~icons/teenyicons/nextjs-solid')['default']
     'Uiw:weixin': typeof import('~icons/uiw/weixin')['default']
     VideoLink: typeof import('./theme/components/VideoLink.vue')['default']
+    'VscodeIcons:fileTypeApib': typeof import('~icons/vscode-icons/file-type-apib')['default']
     'VscodeIcons:fileTypeBun': typeof import('~icons/vscode-icons/file-type-bun')['default']
   }
 }

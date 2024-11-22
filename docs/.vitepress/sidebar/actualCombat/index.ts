@@ -5,7 +5,7 @@ export default [
         items: [
             {
                 text: "drag 拖拽",
-                link: "/programming/actualCombat/drag",
+                link: "/markdown/programming/actualCombat/drag",
             },
         ],
     },
@@ -15,7 +15,7 @@ export default [
         items: [
             {
                 text: "使用jsDelivr托管GitHub图片",
-                link: "/programming/actualCombat/advance/jsDelivr",
+                link: "/markdown/programming/actualCombat/advance/jsDelivr",
             },
         ],
     },
