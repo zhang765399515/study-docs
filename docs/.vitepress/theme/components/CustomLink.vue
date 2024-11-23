@@ -51,7 +51,7 @@ const hrefSource = computed(() => {
   else return 'web'
 })
 
-const isExternal = computed(() => href && (hrefSource.value=='markdown'||EXTERNAL_URL_RE.test(href)))
+const isExternal = computed(() => href && (hrefSource.value == 'markdown' || EXTERNAL_URL_RE.test(href)))
 
 const component = computed(() => {
   if (tag)
@@ -62,23 +62,24 @@ const component = computed(() => {
 </script>
 
 <template>
-  <component
-    :is="component" v-if="isExternal" :href="href"
-    :target="target || (isExternal ? '_blank' : undefined)" :rel="rel || (isExternal ? 'noreferrer' : undefined)"
-    class="custom-link"
-  >
+  <component :is="component" v-if="isExternal" :href="href" :target="target || (isExternal ? '_blank' : undefined)"
+    :rel="rel || (isExternal ? 'noreferrer' : undefined)" class="custom-link">
     <div class="custom-wrap rounded-lg p-px dark:shadow-lg shadow-black/20 my-4 border-zinc-300 border-solid border-px">
       <div class="rounded-lg dark:bg-black">
         <section class="flex group flex-col rounded-md p-4 gap-3 transition duration-500 cursor-pointer ">
           <span
             class="text-ellipsis w-[90%] whitespace-nowrap overflow-hidden dark:opacity-90 font-600 group-hover:text-[#06f]"
-          >{{
-            title }}</span>
+            style="display: flex;align-items: center;">
+            <template v-if="hrefSource == 'markdown'">
+              <vscode-icons:file-type-apib class="w-7 h-7" />
+              &nbsp;
+            </template>
+            {{ title }}
+          </span>
           <div v-if="desc" class="opacity-75 font-500 text-sm">
-            {{ desc
-            }}
+            {{ desc }}
           </div>
-          <div class="flex item-center justify-between">
+          <div class="flex item-center justify-between" v-if="hrefSource != 'markdown'">
             <div class="flex items-center gap-1 w-full max-w-[75%]">
               <tabler:brand-bilibili v-if="hrefSource === 'bilibili'" class="text-blue-600 w-8 h-8 " />
               <uiw:weixin v-if="hrefSource === 'weread'" class="text-blue-600 w-8 h-8 " />
@@ -99,12 +100,11 @@ const component = computed(() => {
               <vscode-icons:file-type-apib v-if="hrefSource === 'markdown'" class="w-7 h-7" />
               <icon-park:add-web v-if="hrefSource === 'web'" class="w-7 h-7" />
               <span class="text-ellipsis w-full whitespace-nowrap overflow-hidden text-sm opacity-75 font-500">{{ href
-              }}</span>
+                }}</span>
             </div>
             <div class="items-center gap-1 hidden sm:flex">
               <span
-                class="text-ellipsis w-full whitespace-nowrap overflow-hidden text-sm font-500 opacity-50"
-              >chodocs.cn</span>
+                class="text-ellipsis w-full whitespace-nowrap overflow-hidden text-sm font-500 opacity-50">chodocs.cn</span>
             </div>
           </div>
         </section>

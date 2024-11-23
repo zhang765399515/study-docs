@@ -24,6 +24,14 @@ export default [
             {
                 text: "状态模式",
                 link: "/markdown/JS/designPatterns/statePattern",
+            },
+            {
+                text: "适配器模式",
+                link: "/markdown/JS/designPatterns/adapterPattern",
+            },
+            {
+                text: "适配器模式和工厂模式的差异",
+                link: "/markdown/JS/designPatterns/AdaptersAndFactories",
             }
         ],
     }
