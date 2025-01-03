@@ -120,6 +120,6 @@ order.request(); // 输出: 订单已完成
 # 参考文献
 
 
-<CustomLink title='《ChatGpt》'  href='https://chatgpt.com/c/67413949-5c1c-800a-9f85-b9b4fb73b699'/>
+<CustomLink title='《ChatGpt》' desc='即时答案。更高生产力。无尽灵感。' href='https://chatgpt.com/c/67413949-5c1c-800a-9f85-b9b4fb73b699'/>
 <CustomLink title='《js设计模式之状态模式》'  href='https://juejin.cn/post/7326801745261183026?searchId=20241123110350B10C4CF8F3909CFEF709'/>
 <CustomLink title='《JS 设计模式速成指南（上）》'  href='https://juejin.cn/post/7359107971999629352?searchId=20241123110350B10C4CF8F3909CFEF709'/>

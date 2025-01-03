@@ -29,6 +29,7 @@ declare module 'vue' {
     'Ph:planetFill': typeof import('~icons/ph/planet-fill')['default']
     'RadixIcons:update': typeof import('~icons/radix-icons/update')['default']
     'Ri:mindMap': typeof import('~icons/ri/mind-map')['default']
+    'SkillIcons:atom': typeof import('~icons/skill-icons/atom')['default']
     'SkillIcons:reactDark': typeof import('~icons/skill-icons/react-dark')['default']
     'SkillIcons:stackoverflowDark': typeof import('~icons/skill-icons/stackoverflow-dark')['default']
     'SkillIcons:typescript': typeof import('~icons/skill-icons/typescript')['default']

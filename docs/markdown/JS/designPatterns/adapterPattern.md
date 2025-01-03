@@ -135,5 +135,5 @@ EventAdapter.addEvent(button, "click", () => {
 
 # 参考文献：
 
-<CustomLink title='《ChatGpt》'  href='https://chatgpt.com/c/67413949-5c1c-800a-9f85-b9b4fb73b699'/>
+<CustomLink title='《ChatGpt》' desc='即时答案。更高生产力。无尽灵感。' href='https://chatgpt.com/c/67413949-5c1c-800a-9f85-b9b4fb73b699'/>
 <CustomLink title='《设计模式在前端开发中的实践（六）——适配器模式》'  href='https://juejin.cn/post/7323203806795186210?searchId=202411231010403115E112E887A1F58703'/>

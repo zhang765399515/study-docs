@@ -48,6 +48,8 @@ const hrefSource = computed(() => {
     return 'gitmind'
   else if (/markdown/.test(href))
     return 'markdown'
+  else if (/chatgpt/.test(href))
+    return 'chatgpt'
   else return 'web'
 })
 
@@ -99,6 +101,7 @@ const component = computed(() => {
               <ri:mind-map v-if="hrefSource === 'gitmind'" class="w-7 h-7" />
               <vscode-icons:file-type-apib v-if="hrefSource === 'markdown'" class="w-7 h-7" />
               <icon-park:add-web v-if="hrefSource === 'web'" class="w-7 h-7" />
+              <skill-icons:atom v-if="hrefSource === 'chatgpt'" class="w-7 h-7" />
               <span class="text-ellipsis w-full whitespace-nowrap overflow-hidden text-sm opacity-75 font-500">{{ href
                 }}</span>
             </div>
