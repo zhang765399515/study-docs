@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "Transition在vue2和vue3的差异",
+                link: "/markdown/webFrame/vue/TransitionDeferece",
+            },
+            {
                 text: "new Image() 预加载 为什么比 <img>直接加载要好？",
                 link: "/markdown/webFrame/vue/img_load",
             },
@@ -33,6 +37,15 @@ export default [
         text: "VUE 3",
         collapsed: false,
         items: [
+            
+            {
+                text: "Teleport 的使用",
+                link: "/markdown/webFrame/vue/vue3/Teleport",
+            },
+            {
+                text: "Suspense 的使用",
+                link: "/markdown/webFrame/vue/vue3/Suspense",
+            },
             {
                 text: "Composition API",
                 link: "/markdown/webFrame/vue/vue3/Composition",
@@ -41,10 +54,7 @@ export default [
                 text: "provide 和 inject",
                 link: "/markdown/webFrame/vue/vue3/Provide_Inject",
             },
-            {
-                text: "Teleport的使用",
-                link: "/markdown/webFrame/vue/vue3/Teleport",
-            }
+            
         ],
     },
 ];
