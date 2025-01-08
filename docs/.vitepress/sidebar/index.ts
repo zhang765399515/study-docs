@@ -1,6 +1,7 @@
 import vueConfig from "./webFrame/vue/config";
 import TS from "./webFrame/TS/config";
 import JS from "./webFrame/JS/config";
+import CSS from "./webFrame/CSS/config";
 import actualCombat from "./actualCombat/index";
 import study from "./study/index";
 import summary2024 from "./summary/2024/index";
@@ -13,7 +14,8 @@ export default {
     "/markdown/summary/2024/": summary2024, //总结
     "/markdown/programming/actualCombat/": actualCombat,
     "/markdown/programming/study/": study,
-    "/markdown/vue/": vueConfig,
-    "/markdown/TS/": TS,
-    "/markdown/JS/": JS,
+    "/markdown/webFrame/vue/": vueConfig,
+    "/markdown/webFrame/TS/": TS,
+    "/markdown/webFrame/JS/": JS,
+    "/markdown/webFrame/CSS/": CSS,
 };

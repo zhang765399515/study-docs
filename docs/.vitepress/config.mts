@@ -16,6 +16,7 @@ export default defineConfigWithTheme({
   themeConfig: {
     confetti: false,
     outlineTitle: '导航栏',
+    outline: "deep",  // 表示显示 h2 和 h3 作为导航
     i18nRouting: true,
     lightModeSwitchTitle:"切换暗主题",
     darkModeSwitchTitle:"切换亮主题",
@@ -53,9 +54,10 @@ export default defineConfigWithTheme({
       },
       { text: "🔥 前端框架",
         items: [
-          { text: 'Vue', link: '/markdown/vue/' },
-          { text: 'TypeScript', link: '/markdown/TS/' },
-          { text: 'JS', link: '/markdown/JS/' },
+          { text: 'Vue', link: '/markdown/webFrame/vue/' },
+          { text: 'TypeScript', link: '/markdown/webFrame/TS/' },
+          { text: 'JS', link: '/markdown/webFrame/JS/' },
+          { text: 'CSS', link: '/markdown/webFrame/CSS/' },
         ]
       },
       { text: "总结",
