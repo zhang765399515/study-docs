@@ -34,6 +34,18 @@ export default [
         ],
     },
     {
+        text: "VUE 2",
+        collapsed: false,
+        items: [
+            
+            {
+                text: "Mixin 的使用",
+                link: "/markdown/webFrame/vue/vue2/Mixin",
+            },
+            
+        ],
+    },
+    {
         text: "VUE 3",
         collapsed: false,
         items: [

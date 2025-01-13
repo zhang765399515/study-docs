@@ -50,6 +50,6 @@ export default defineConfig(async () => {
           require('postcss-nested'),
         ],
       },
-    },
+    }
   }
 })

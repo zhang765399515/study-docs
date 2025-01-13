@@ -12,6 +12,15 @@ export default defineConfigWithTheme({
   locales: {
     root: { label: "简体中文", lang: "zh-CN" },
   },
+  markdown: {
+    container: {
+      tipLabel: ' ',
+      warningLabel: ' ',
+      dangerLabel: ' ',
+      infoLabel: ' ',
+      detailsLabel: ' '
+    }
+  },
   appearance:"dark",
   themeConfig: {
     confetti: false,
