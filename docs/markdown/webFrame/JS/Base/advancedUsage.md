@@ -1,9 +1,9 @@
-# <font color=#9898E5> 高级前端开发 25 个 JavaScript 单行代码 </font>
+#  高级前端开发 25 个 JavaScript 单行代码 
 ::: tip
     本文记录一些常用的单行高级JS使用方法;
 :::
 
-## <font color=#9898E5> 1. 不使用临时变量来交换变量的值 </font>
+##  1. 不使用临时变量来交换变量的值 
 
 例如我们想要将 a 于 b 的值交换
 
@@ -18,7 +18,7 @@ let a = 1, b = 2;
 
 这行代码使用数组解构赋值的方式来交换两个变量的值，无需定义新的临时变量。这个巧妙的技巧可让代码看起来更简洁明了。语法[a, b] = [b, a]通过解构右侧的数组并将其分配给左侧来实现交换它们的值。
 
-## <font color=#9898E5>2. 对象解构，让数据访问更便捷 </font>
+## 2. 对象解构，让数据访问更便捷 
 
 ```js
 const { name, age } = { name: '张三', age: 23 };
@@ -28,7 +28,7 @@ const { name, age } = { name: '张三', age: 23 };
 
 这里使用对象解构赋值的方式将对象中的属性直接提取到新的变量中。这种方法简化了访问对象属性的过程，并增强了代码的可读性。
 
-## <font color=#9898E5> 3. 浅克隆对象 </font>
+##  3. 浅克隆对象 
 
 ```js
 const originalObj = { name: '张三', age: 24 };
@@ -41,7 +41,7 @@ const clonedObj = { ...originalObj };
 
 通过使用扩展运算符 (...) 创建originalObj的浅克隆对象。此技术将所有可枚举的自身属性从原始对象复制到新对象。
 
-## <font color=#9898E5> 4. 合并对象 </font>
+##  4. 合并对象 
 
 ```js
 const obj1 = { name: '张三' };
@@ -54,7 +54,7 @@ const mergedObj = { ...obj1, ...obj2 };
 
 与克隆类似，通过扩展运算符将obj1和合并obj2为一个新的对象。如果有重叠的属性，则最后一个对象的属性将覆盖前一个对象的属性。
 
-## <font color=#9898E5> 5. 清理数组 </font>
+##  5. 清理数组 
 
 ```js
 const arr = [ 0, 1, false, 2, '', 3 ];
@@ -66,7 +66,7 @@ const cleanedArray = arr.filter(Boolean);
 
 通过Array.prototype.filter()函数并使用Boolean函数作为回调。它将会从数组中删除所有假值（ 0，false，null，undefined，''，NaN）。
 
-## <font color=#9898E5> 6. 将 NodeList 转换为数组 </font>
+##  6. 将 NodeList 转换为数组 
 
 ```js
 const nodesArray = [ ...document.querySelectorAll('div') ];
@@ -74,7 +74,7 @@ const nodesArray = [ ...document.querySelectorAll('div') ];
 
 通过扩展运算符将NodeList( document.querySelectorAll函数的返回值) 转换为 JavaScript 数组，从而能够使用数组的map方法filter去操作查找到的元素。
 
-## <font color=#9898E5> 7. 检查数组是否满足指定条件 </font>
+##  7. 检查数组是否满足指定条件 
 
 例如我们要判断一个数组中是否存在负数
 
@@ -100,7 +100,7 @@ const allPositive = arr.every(num => num > 0);
 // 结果: allPositive = false
 ```
 
-## <font color=#9898E5> 8. 将文本复制到剪贴板 </font>
+##  8. 将文本复制到剪贴板 
 
 ```js
 navigator.clipboard.writeText('Text to copy');
@@ -108,7 +108,7 @@ navigator.clipboard.writeText('Text to copy');
 
 通过使用 Clipboard API 以编程方式将文本复制到剪贴板。这是一种最新的复制方法，可让文本复制变得无缝且高效（但目前各大浏览器支持度还不是很高，需要考虑兼容性问题）。
 
-## <font color=#9898E5> 9. 删除数组重复项 </font>
+##  9. 删除数组重复项 
 
 ```js
 const arr = [1, 2, 2, 3, 4, 4, 5];
@@ -121,7 +121,7 @@ const unique = [...new Set(arr)];
 这里利用了Set对象存储的值会保持唯一，以及扩展运算符能将Set转换回数组的特性。这是一种优雅的删除数组中重复项的方式。
 
 ```js
-## <font color=#9898E5> 10. 取两个数组的交集 </font>
+##  10. 取两个数组的交集 
 const arr1 = [1, 2, 3, 4];
 const arr2 = [2, 4, 6, 8];
 
@@ -134,7 +134,7 @@ const intersection = arr1.filter(value => arr2.includes(value));
 此示例通过使用Array.prototype.filter()函数去查找arr1与arr2中的公共元素。传入的回调函数会检查arr2是否包含arr1的每一个元素，从而得到两个数组的交集。
 
 ```js
-## <font color=#9898E5> 11. 求数组元素的总和 </font>
+##  11. 求数组元素的总和 
 const arr = [1, 2, 3, 4];
 
 // 求总和
@@ -145,7 +145,7 @@ const sum = arr.reduce((total, value) => total + value, 0);
 
 此示例使用Array.prototype.reduce()方法将数组中所有的值全部累加起来。reduce方法接收一个回调函数和一个初始值（即前一个回调函数累加值的初始值），这个回调函数有两个参数：累加值total和当前值value。它将会遍历数组所有元素，将每个元素添加到总和中（总和初始为0）。
 
-## <font color=#9898E5> 12. 根据指定条件判断，是否给对象的属性赋值 </font>
+##  12. 根据指定条件判断，是否给对象的属性赋值 
 
 ```js
 const condition = true;
@@ -159,7 +159,7 @@ const newObject = {...(condition && {key: value})};
 
 此案例使用扩展运算符 (...) 与短路求值(&&)，将属性有条件地添加到对象中。 如果condition为真，则会将{key: value}扩展到对象中；否则不进行任何操作。
 
-## <font color=#9898E5> 13. 使用变量作为对象的键 </font>
+##  13. 使用变量作为对象的键 
 
 ```js
 const dynamicKey = 'name';
@@ -173,7 +173,7 @@ const obj = {[dynamicKey]: value};
 
 这种语法称为计算属性名，它允许使用变量作为对象的键。方括号内的dynamicKey表达式会计算其值，以将其用作属性名称。
 
-## <font color=#9898E5> 14. 离线状态检查器 </font>
+##  14. 离线状态检查器 
 
 ```js
 const isOnline = navigator.onLine ? '在线' : '离线';
@@ -183,7 +183,7 @@ const isOnline = navigator.onLine ? '在线' : '离线';
 
 这段代码使用三元运算符检查浏览器的在线状态(navigator.onLine)，如果为真则返回'在线'，否则返回'离线'。这是一种动态检查用户网络连接状态的方法。
 
-## <font color=#9898E5> 15. 离开页面弹出确认对话框 </font>
+##  15. 离开页面弹出确认对话框 
 
 ```js
 window.onbeforeunload = () => '你确定要离开吗？';
@@ -191,7 +191,7 @@ window.onbeforeunload = () => '你确定要离开吗？';
 
 这行代码与window的onbeforeunload事件挂钩，当用户离开页面时会弹出一个确认对话框，一般用于防止用户因未保存更改就关闭页面而导致数据丢失。
 
-## <font color=#9898E5> 16. 对象数组，根据对象的某个key求对应值的总和 </font>
+##  16. 对象数组，根据对象的某个key求对应值的总和 
 
 ```js
 const arrayOfObjects = [{x: 1}, {x: 2}, {x: 3}];
@@ -207,7 +207,7 @@ sumBy(arrayOfObjects, 'x'));
 
 sumBy函数使用Array.prototype.reduce()对数组中元素特定键的值求和。这是一种根据给定键计算对象数组总和的灵活方法。
 
-## <font color=#9898E5> 17. 将 url 问号后面的查询字符串转为对象 </font>
+##  17. 将 url 问号后面的查询字符串转为对象 
 
 ```js
 const query = 'name=John&age=30';
@@ -220,7 +220,7 @@ const parseQuery = query => Object.fromEntries(new URLSearchParams(query));
 
 此示例将一个查询字符串转换为了一个对象。其中URLSearchParams会进行字符串解析，它将返回一个可迭代对象，然后在通过Object.fromEntries将它转换为对象，从而使 URL 参数检索变得方便多了。
 
-## <font color=#9898E5> 18. 将秒数转换为时间格式的字符串 </font>
+##  18. 将秒数转换为时间格式的字符串 
 
 ```js
 const seconds = 3661; // 一小时是 3600 秒，多出 61 秒
@@ -234,7 +234,7 @@ toTimeString(seconds));
 
 此示例将秒数转换为 HH:MM:SS 格式的字符串。它通过给定的秒数加上时间戳起始点来创建一个新的 Date 对象，然后将其转换为 ISO 字符串，并提取时间部分得到结果。
 
-## <font color=#9898E5> 19. 求某对象所有属性值的最大值 </font>
+##  19. 求某对象所有属性值的最大值 
 
 ```js
 // 数学、语文、英语成绩
@@ -250,7 +250,7 @@ maxObjectValue(scores));
 
 此示例用于在对象所有的属性值中找到最大值。其中Object.values(obj)将对象所有的属性值提取为数组，然后使用展开运算符将数组的所有元素作为Math.max函数的参数进行最大值查找。
 
-## <font color=#9898E5> 20. 判断对象的值中是否包含有某个值 </font>
+##  20. 判断对象的值中是否包含有某个值 
 
 ```js
 const person = { name: '张三', age: 30 };
@@ -264,7 +264,7 @@ hasValue(person, 30);
 
 hasValue函数会检查对象的值中是否存在指定的值。其中Object.values(obj)用于获取对象中所有的值的数组，然后通过includes(value)检查指定值是否在该数组中。
 
-## <font color=#9898E5> 21. 安全访问深度嵌套的对象属性 </font>
+##  21. 安全访问深度嵌套的对象属性 
 
 ```js
 const user = { profile: { name: '张三' } };
@@ -282,7 +282,7 @@ const userName = user.profile?.name ?? '匿名';
 
 在上面的例子中，如果把??改为||，行为会稍微有些不同。||的左侧如果为假值，它将会返回右侧的值。JavaScript 中的假值包括null、undefined、0、NaN、''（空字符串）和false。这意味着||左边的值不仅仅是null或undefined，如果还是其他假值，那么都将返回右侧的值。
 
-## <font color=#9898E5> 22. 条件执行语句 </font>
+##  22. 条件执行语句 
 
 ```js
 const isEligible = true;
@@ -306,7 +306,7 @@ isEligible && (value = '条件达成');
 // 如果 isEligible 为真，则执行 (value = '条件达成') 语句
 ```
 
-## <font color=#9898E5> 23. 创建包含值为指定数字范围的数组 </font>
+##  23. 创建包含值为指定数字范围的数组 
 
 例如创建数字5以内所有正数的数组
 
@@ -318,7 +318,7 @@ const range = Array.from({ length: 5 }, (_, i) => i + 1);
 
 Array.from()从类数组或可迭代对象创建一个新数组。这里，它接受一个具有属性length和映射函数的对象。映射函数 ( (_, i) => i + 1) 使用索引 ( i) 生成从 1 到 5 的数字。下划线 (_) 是一种惯例，表示未使用该参数。
 
-## <font color=#9898E5> 24. 提取文件扩展名 </font>
+##  24. 提取文件扩展名 
 
 ```js
 const fileName = 'example.png';
@@ -330,7 +330,7 @@ const getFileExtension = str => str.slice(((str.lastIndexOf(".") - 1) >>> 0) + 2
 
 这个案例实现了从字符串中提取文件扩展名。它先找到最后一次出现点号 (.) 位置，然后截取从该位置到末尾的字符串。位运算符 (>>>) 确保了即使未找到点号 (.) ，操作也是安全的，因为在这种情况下仍然会返回一个空字符串。
 
-## <font color=#9898E5> 25. 切换元素的 class </font>
+##  25. 切换元素的 class 
 
 ```js
 const element = document.querySelector('.my-element');

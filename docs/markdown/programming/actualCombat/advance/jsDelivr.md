@@ -1,4 +1,4 @@
-# <font color=#9898E5>如何使用jsDelivr托管GitHub图片</font>
+# 如何使用jsDelivr托管GitHub图片
 
 ## 一、主要解决使用文档时本地放静态图片访问问题，和部署问题
 
