@@ -15,6 +15,14 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "预请求",
+                link: "/markdown/webFrame/JS/Network/Pre-request",
+            },
+            {
+                text: "跨域请求的原理和处理方式",
+                link: "/markdown/webFrame/JS/Network/CrossDomain",
+            },
+            {
                 text: "取消请求的几种方式",
                 link: "/markdown/webFrame/JS/Network/CancelRequest",
             },

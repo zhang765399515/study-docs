@@ -11,7 +11,9 @@ html.dark {
   border-top: 0px;
   margin-top: 10px;
 }
-
+/* .vp-doc ol,.vp-doc ul {
+  padding-left: 40px;
+} */
 .VPMenuLink .link {
   line-height: 28px !important;
 }
