@@ -14,6 +14,10 @@ html.dark {
 /* .vp-doc ol,.vp-doc ul {
   padding-left: 40px;
 } */
+
+.vp-doc ol{
+  padding-left: 40px;
+}
 .VPMenuLink .link {
   line-height: 28px !important;
 }
