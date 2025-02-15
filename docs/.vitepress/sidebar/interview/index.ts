@@ -1,5 +1,15 @@
 export default [
     {
+        text: "JS系列",
+        collapsed: false,
+        items: [
+            {
+                text: "什么是闭包？",
+                link: "/markdown/interview/JS/Closure",
+            }
+        ],
+    },
+    {
         text: "算法系列",
         collapsed: false,
         items: [
