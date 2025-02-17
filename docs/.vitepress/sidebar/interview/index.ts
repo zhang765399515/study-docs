@@ -6,7 +6,11 @@ export default [
             {
                 text: "什么是闭包？",
                 link: "/markdown/interview/JS/Closure",
-            }
+            },
+            {
+                text: "手写Call",
+                link: "/markdown/interview/JS/Call",
+            },
         ],
     },
     {
