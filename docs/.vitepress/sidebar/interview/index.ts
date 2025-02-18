@@ -4,13 +4,18 @@ export default [
         collapsed: false,
         items: [
             {
-                text: "什么是闭包？",
-                link: "/markdown/interview/JS/Closure",
+                text: "手写New",
+                link: "/markdown/interview/JS/New",
             },
             {
                 text: "手写Call",
                 link: "/markdown/interview/JS/Call",
             },
+            
+            {
+                text: "什么是闭包？",
+                link: "/markdown/interview/JS/Closure",
+            }
         ],
     },
     {
