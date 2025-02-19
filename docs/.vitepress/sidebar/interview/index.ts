@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "手写Promise",
+                link: "/markdown/interview/JS/Promise",
+            },
+            {
                 text: "手写New",
                 link: "/markdown/interview/JS/New",
             },
