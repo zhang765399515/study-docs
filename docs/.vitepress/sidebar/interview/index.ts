@@ -4,6 +4,18 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "树摇（tree shaking）优化",
+                link: "/markdown/interview/JS/TreeShaking",
+            },
+            {
+                text: "桶文件 使用，优缺点",
+                link: "/markdown/interview/JS/BucketFiles",
+            },
+            {
+                text: "Generator 的使用",
+                link: "/markdown/interview/JS/Generator",
+            },
+            {
                 text: "手写Promise",
                 link: "/markdown/interview/JS/Promise",
             },
