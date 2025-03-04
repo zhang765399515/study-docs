@@ -4,6 +4,18 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "webpack 配置分析",
+                link: "/markdown/interview/JS/WebpackConfiguration",
+            },
+            {
+                text: "函数式编程",
+                link: "/markdown/interview/JS/FunctionalProgramming",
+            },
+            {
+                text: "垃圾回收机制",
+                link: "/markdown/interview/JS/GarbageCollection",
+            },
+            {
                 text: "树摇（tree shaking）优化",
                 link: "/markdown/interview/JS/TreeShaking",
             },

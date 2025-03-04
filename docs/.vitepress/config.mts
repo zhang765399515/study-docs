@@ -69,17 +69,17 @@ export default defineConfigWithTheme({
           { text: 'CSS', link: '/markdown/webFrame/CSS/' },
         ]
       },
-      { text: "总结",
-        items: [
-          { text: '2024总结', link: '/markdown/summary/2024/' },
-        ]
-      },
-      { text: "编程",
-        items: [
-          { text: '实战', link: '/markdown/programming/actualCombat/' },
-          { text: '学习', link: '/markdown/programming/study/' },
-        ]
-      },
+      // { text: "总结",
+      //   items: [
+      //     { text: '2024总结', link: '/markdown/summary/2024/' },
+      //   ]
+      // },
+      // { text: "编程",
+      //   items: [
+      //     { text: '实战', link: '/markdown/programming/actualCombat/' },
+      //     { text: '学习', link: '/markdown/programming/study/' },
+      //   ]
+      // },
     ],
     sidebar,
     socialLinks: [
