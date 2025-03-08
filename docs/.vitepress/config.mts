@@ -63,6 +63,7 @@ export default defineConfigWithTheme({
       },
       { text: "🔥 前端框架",
         items: [
+          { text: 'React', link: '/markdown/webFrame/React/' },
           { text: 'Vue', link: '/markdown/webFrame/vue/' },
           { text: 'TypeScript', link: '/markdown/webFrame/TS/' },
           { text: 'JS', link: '/markdown/webFrame/JS/' },
