@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "函数隐式转换",
+                link: "/markdown/interview/JS/ImplicitConversionFunctions",
+            },
+            {
                 text: "webpack 配置分析",
                 link: "/markdown/interview/JS/WebpackConfiguration",
             },

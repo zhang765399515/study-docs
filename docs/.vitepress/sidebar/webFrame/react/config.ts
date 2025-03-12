@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "UseToggle 简写",
+                link: "/markdown/webFrame/React/UseToggle",
+            },
+            {
                 text: "React 针对CPU卡顿做了些什么？",
                 link: "/markdown/webFrame/React/OptimizationLag",
             },
