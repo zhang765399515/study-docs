@@ -15,6 +15,9 @@ function getDataById(ID: string) {
 现在还有一个接口，就是通过很多个 ID 来获取很多个用户的信息。那么这个函数就可能被设计成这样子。
 
 ```ts
+function getDataById(ID: string) {
+  return userData;
+}
 function getDataById_1(ID: string) {
   return userData_1;
 }

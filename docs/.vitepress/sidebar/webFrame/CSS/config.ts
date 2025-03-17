@@ -7,10 +7,6 @@ export default [
                 text: "标签包含值",
                 link: "/markdown/webFrame/CSS/commonly/index",
             },
-            {
-                text: "图片文字同时居中",
-                link: "/markdown/webFrame/CSS/imgAndFontCenter/index",
-            },
         ],
     },
     {

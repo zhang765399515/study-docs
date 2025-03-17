@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "Nginx 配置",
+                link: "/markdown/interview/JS/Nginx",
+            },
+            {
                 text: "函数隐式转换",
                 link: "/markdown/interview/JS/ImplicitConversionFunctions",
             },

@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "UseToggle 封装",
+                link: "/markdown/webFrame/React/UseToggleEncapsulation",
+            },
+            {
                 text: "UseToggle 简写",
                 link: "/markdown/webFrame/React/UseToggle",
             },
