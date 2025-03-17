@@ -15,7 +15,7 @@ jobs:
       - name: Install and Build 🔧               # 第二步：下载依赖和构建
         run: |
           yarn install
-          yarn build
+          yarn docs:build
 
       - name: Deploy 🚀                         # 第三步：部署
         uses: JamesIves/github-pages-deploy-action@v4
