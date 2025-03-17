@@ -92,7 +92,7 @@ var climbStairs = function(n) {
 ```js
 function climbStairs(n) {
 
-    if(n <=1) return 1;
+    if(n <=1) return 1; 
     let prev = 1, 
         curr =1;
     for(let i=2; i<=n; i++){ 
