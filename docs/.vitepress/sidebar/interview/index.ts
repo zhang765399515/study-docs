@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "什么是Compiler？",
+                link: "/markdown/interview/JS/Compiler",
+            },
+            {
                 text: "Nginx 配置",
                 link: "/markdown/interview/JS/Nginx",
             },
