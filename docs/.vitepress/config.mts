@@ -59,6 +59,7 @@ export default defineConfigWithTheme({
         items: [
           { text: '面试专栏', link: '/markdown/interview/' },
           { text: 'Git', link: '/markdown/Git/' },
+          { text: '常用Tool', link: '/markdown/Tool/' },
         ]
       },
       { text: "🔥 前端框架",

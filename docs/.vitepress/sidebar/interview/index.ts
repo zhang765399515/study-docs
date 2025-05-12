@@ -4,6 +4,14 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "构建工具发展史",
+                link: "/markdown/interview/JS/BuildTools",
+            },
+            {
+                text: "npm run build 做了些什么？",
+                link: "/markdown/interview/JS/NpmRunBuild",
+            },
+            {
                 text: "什么是Compiler？",
                 link: "/markdown/interview/JS/Compiler",
             },
