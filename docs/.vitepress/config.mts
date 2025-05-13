@@ -29,7 +29,7 @@ export default defineConfigWithTheme({
     outline: "deep",  // 表示显示 h2 和 h3 作为导航
     i18nRouting: true,
     lightModeSwitchTitle:"切换暗主题",
-    darkModeSwitchTitle:"切换亮主题",
+    darkModeSwitchTitle:"切换亮主题", 
     search: {
       provider: 'local',
       options: {
