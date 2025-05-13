@@ -35,4 +35,5 @@ jobs:
           username: administrator
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
+          target: "C:\nginx\html"
           source: "dist/"
