@@ -2,7 +2,7 @@ import vueConfig from "./webFrame/vue/config";
 import TS from "./webFrame/TS/config";
 import JS from "./webFrame/JS/config";
 import CSS from "./webFrame/CSS/config";
-import React from "./webFrame/React/config";
+import React from "./webFrame/react/config";
 
 import actualCombat from "./actualCombat/index";
 import study from "./study/index";
