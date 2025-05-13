@@ -31,9 +31,8 @@ jobs:
       - name: copy file via ssh password
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.REMOTE_HOST }}
-          username: ${{ secrets.REMOTE_USER }}
-          password: ${{ secrets.REMOTE_PASS }}
+          host: ${{ secrets.SERVER_IP }}
+          username: administrator
+          password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
           source: "dist/"
-          target: ${{ secrets.REMOTE_TARGET }}
