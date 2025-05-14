@@ -5,7 +5,7 @@ import escookConfig from '@escook/vitepress-theme/config'
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme({
   extends: escookConfig,
-  outDir: '../dist',
+  outDir: '../study-docs',
   title: "Junlin Docs",
   lang: "zh-CN",
   description: "Front-end learning document collection",
