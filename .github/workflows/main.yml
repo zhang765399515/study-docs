@@ -46,3 +46,4 @@ jobs:
           overwrite: true  # 确保覆盖现有文件
           use_shell: true  # 使用 PowerShell 命令而非 tar
           command_timeout: 10m  # 增加超时时间
+          shell: powershell  # 明确指定使用 PowerShell
