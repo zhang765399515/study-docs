@@ -22,24 +22,24 @@ jobs:
       - name: build app
         run: npm run docs:build
       
-      - name: Check dist directory
-        id: check_dist
+      - name: Check study-docs directory
+        id: check_study-docs
         run: |
-          if [ -n "$(ls -A dist/)" ]; then
-            echo "dist_not_empty=true" >> $GITHUB_OUTPUT
+          if [ -n "$(ls -A study-docs/)" ]; then
+            echo "study-docs_not_empty=true" >> $GITHUB_OUTPUT
           else
-            echo "dist_not_empty=false" >> $GITHUB_OUTPUT
+            echo "study-docs_not_empty=false" >> $GITHUB_OUTPUT
           fi
       
       - name: copy new files
         uses: appleboy/scp-action@master
-        if: steps.check_dist.outputs.dist_not_empty == 'true'
+        if: steps.check_study-docs.outputs.study-docs_not_empty == 'true'
         with:
           host: ${{ secrets.SERVER_IP }}
           username: administrator
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
-          source: "dist/*"
+          source: "study-docs/*"
           target: "C:/nginx/html"
           strip_components: 1
           rm: true  # 添加这个选项来删除目标目录中不存在于源中的文件
