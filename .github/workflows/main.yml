@@ -40,6 +40,7 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
           source: "study-docs/*"
-          target: "C:/nginx/html"
+          target: "C:/nginx/html/study-docs"  # 明确指定服务器上的子目录
           strip_components: 1
-          rm: true  # 添加这个选项来删除目标目录中不存在于源中的文件
+          rm: false  # 禁用自动删除目标目录
+          overwrite: true  # 确保覆盖现有文件
