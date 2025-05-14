@@ -7,7 +7,7 @@ hero:
   text: "Personal learning record"
   tagline: 个人学习记录
   image:
-    src: /it.svg
+    src: /main.png
     alt: Junlin Zhang
   actions:
     - theme: brand
@@ -18,8 +18,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📊
+    title: 大屏EChart案例
+    details: 关于地质大数据实际项目切图，带自适应。
+    link: http://121.41.227.80:8002/
+    linkText: 前往查看
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
