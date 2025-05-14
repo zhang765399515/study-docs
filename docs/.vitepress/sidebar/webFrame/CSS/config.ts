@@ -16,7 +16,11 @@ export default [
             {
                 text: "JPG 和 png 的区别",
                 link: "/markdown/webFrame/CSS/JPGandPNG",
-            }
+            },
+            {
+                text: "grid 动画",
+                link: "/markdown/webFrame/CSS/gridAnimation",
+            },
         ],
     },
 ];
