@@ -40,7 +40,9 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
           source: "study-docs/*"
-          target: "C:/nginx/html/study-docs"  # 明确指定服务器上的子目录
+          target: "C:/nginx/html/study-docs"
           strip_components: 1
           rm: false  # 禁用自动删除目标目录
           overwrite: true  # 确保覆盖现有文件
+          use_shell: true  # 使用 PowerShell 命令而非 tar
+          command_timeout: 10m  # 增加超时时间
