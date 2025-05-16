@@ -13,13 +13,19 @@ export default [
         text: "进阶",
         collapsed: false,
         items: [
+            
             {
-                text: "JPG 和 png 的区别",
-                link: "/markdown/webFrame/CSS/JPGandPNG",
+                text: "颜色混合",
+                link: "/markdown/webFrame/CSS/ColorAdaptive",
             },
+            
             {
                 text: "grid 动画",
                 link: "/markdown/webFrame/CSS/gridAnimation",
+            },
+            {
+                text: "JPG 和 png 的区别",
+                link: "/markdown/webFrame/CSS/JPGandPNG",
             },
         ],
     },

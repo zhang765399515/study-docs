@@ -50,3 +50,18 @@ html.dark {
 .custom-block.tip code{
   width: 100%;
 }
+ol{
+  padding-left: 30px !important;
+}
+p + ol{
+  padding-left: 40px !important;
+}
+p + ul{
+  padding-left: 40px !important;
+}
+ul ul{
+  list-style: circle !important;
+}
+strong{
+  color: rgba(0,0,0,1);
+}

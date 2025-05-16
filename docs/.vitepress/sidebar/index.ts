@@ -9,6 +9,7 @@ import study from "./study/index";
 import summary2024 from "./summary/2024/index";
 import interview from "./interview/index";//面试题
 import Git from "./Git/index";//Git
+import PerformanceOptimization from "./PerformanceOptimization/index";
 export default {
     "/markdown/": [],
     "/markdown/interview/": interview,
@@ -21,4 +22,6 @@ export default {
     "/markdown/webFrame/JS/": JS,
     "/markdown/webFrame/CSS/": CSS,
     "/markdown/webFrame/React/": React,
+    "/markdown/PerformanceOptimization/": PerformanceOptimization,
+
 };
