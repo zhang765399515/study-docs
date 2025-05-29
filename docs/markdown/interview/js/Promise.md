@@ -1,10 +1,8 @@
-# Promise
+# 手写Promise
 
 本文主要内容为 手写Promise
 
-## Promise
 
-## 手写Promise
 
 ### 1. 初始化MyPromise
 

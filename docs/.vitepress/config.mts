@@ -68,9 +68,12 @@ export default defineConfigWithTheme({
         items: [
           { text: 'React', link: '/markdown/webFrame/React/' },
           { text: 'Vue', link: '/markdown/webFrame/vue/' },
-          { text: 'TypeScript', link: '/markdown/webFrame/TS/' },
-          { text: 'JS', link: '/markdown/webFrame/JS/' },
-          { text: 'CSS', link: '/markdown/webFrame/CSS/' },
+          { text: 'Js Css Html', link: '/markdown/webFrame/WebBase' },
+        ]
+      },
+      { text: "🔥 实战项目",
+        items: [
+          { text: '无代码平台', link: '/markdown/realityProject/' },
         ]
       },
       // { text: "总结",

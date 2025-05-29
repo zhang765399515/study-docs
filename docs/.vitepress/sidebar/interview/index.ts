@@ -4,17 +4,16 @@ export default [
         collapsed: false,
         items: [
             {
-                text: "构建工具发展史",
-                link: "/markdown/interview/JS/BuildTools",
+                text: "微前端的理解",
+                link: "/markdown/interview/JS/MicroFrontend",
             },
             {
-                text: "npm run build 做了些什么？",
-                link: "/markdown/interview/JS/NpmRunBuild",
+                text: "使用jsDelivr托管GitHub图片",
+                link: "/markdown/interview/JS/jsDelivr",
             },
-            {
-                text: "什么是Compiler？",
-                link: "/markdown/interview/JS/Compiler",
-            },
+            
+            
+            
             {
                 text: "Nginx 配置",
                 link: "/markdown/interview/JS/Nginx",
@@ -23,10 +22,7 @@ export default [
                 text: "函数隐式转换",
                 link: "/markdown/interview/JS/ImplicitConversionFunctions",
             },
-            {
-                text: "webpack 配置分析",
-                link: "/markdown/interview/JS/WebpackConfiguration",
-            },
+            
             {
                 text: "函数式编程",
                 link: "/markdown/interview/JS/FunctionalProgramming",
@@ -35,14 +31,7 @@ export default [
                 text: "垃圾回收机制",
                 link: "/markdown/interview/JS/GarbageCollection",
             },
-            {
-                text: "树摇（tree shaking）优化",
-                link: "/markdown/interview/JS/TreeShaking",
-            },
-            {
-                text: "桶文件 使用，优缺点",
-                link: "/markdown/interview/JS/BucketFiles",
-            },
+            
             {
                 text: "Generator 的使用",
                 link: "/markdown/interview/JS/Generator",
