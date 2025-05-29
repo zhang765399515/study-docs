@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "IO操作",
+                link: "/markdown/interview/JS/IO",
+            },
+            {
                 text: "微前端的理解",
                 link: "/markdown/interview/JS/MicroFrontend",
             },
@@ -11,9 +15,6 @@ export default [
                 text: "使用jsDelivr托管GitHub图片",
                 link: "/markdown/interview/JS/jsDelivr",
             },
-            
-            
-            
             {
                 text: "Nginx 配置",
                 link: "/markdown/interview/JS/Nginx",

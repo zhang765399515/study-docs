@@ -5,6 +5,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "文件分片上传",
+                link: "/markdown/PerformanceOptimization/FileSharding",
+            },
+            {
                 text: "网络优化",
                 link: "/markdown/PerformanceOptimization/networkOptimization",
             },

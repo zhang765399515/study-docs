@@ -19,6 +19,7 @@
   git config --global https.proxy http://127.0.0.1:[port]
   ```
 
+
 ### 方法二：清除通用代理
 
   大部分时候，直接清除通用代理即可
@@ -26,6 +27,12 @@
   ```js
   git config --global --unset http.proxy
   git config --global --unset https.proxy
+  ```
+    另一种方式：
+
+  ```js
+  git config --global --get http.proxy
+  git config --global --get https.proxy
   ```
 
 ### 方法三：清除相关代理

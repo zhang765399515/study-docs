@@ -7,6 +7,7 @@
 
 complier 的主要作用是解析模板，生成渲染模板的 render， 而 render 的作用主要是为了生成 `VNode`
 
+
 ## complier 主要分为 3 大块
 
 ### **1. 模板解析（Parsing）**
