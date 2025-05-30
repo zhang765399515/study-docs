@@ -1,4 +1,4 @@
-import Vue from "./webFrame/Vue/config";
+import Vue from "./webFrame/vue/config";
 import React from "./webFrame/react/config";
 import WebBase from "./webFrame/WebBase/config";
 import actualCombat from "./actualCombat/index";

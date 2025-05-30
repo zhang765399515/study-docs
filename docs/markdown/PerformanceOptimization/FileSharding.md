@@ -77,12 +77,15 @@ export async function createChunk(file, index, CHUNK_SIZE) {
     fileReader.readAsArrayBuffer(blob); // 读取文件的一部分
 }
 ```
+**重点**
 
--   这里有一个重点，我们最后需要使用 `fileReader.readAsArrayBuffer(blob)` 来读取文件的一部分，因为我们需要将文件的一部分作为一个`二进制数组`来处理。
+-  这里有一个重点，我们最后需要使用 `fileReader.readAsArrayBuffer(blob)` 来读取文件的一部分，因为我们需要将文件的一部分作为一个`二进制数组`来处理。
 
 其中`speak-md5`库是用来处理 **hash** 值。
 
-这里就完成了整体的文件分片操作，但是存在一个很大的问题，如果这里上传的大文件，可能需要大量的时间来处理分片信息，主要原因是通过 `spark.end`生成 hash 值十分耗时。
+**问题**
+
+- 这里就完成了整体的文件分片操作，但是存在一个很大的问题，如果这里上传的大文件，可能需要大量的时间来处理分片信息，主要原因是通过 `spark.end`生成 hash 值十分耗时。
 
 所以我们需要优化这个函数，让它能够更快的处理分片信息。
 
