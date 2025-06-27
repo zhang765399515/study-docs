@@ -22,7 +22,7 @@ export default defineConfigWithTheme({
       detailsLabel: ' '
     }
   },
-  // appearance:"dark",//默认颜色
+  appearance:"dark",//默认颜色
   themeConfig: {
     confetti: false,
     outlineTitle: '导航栏',
