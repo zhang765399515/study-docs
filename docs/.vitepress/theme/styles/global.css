@@ -1,13 +1,15 @@
 iframe {
-  width: 100%;
-  min-height: 600px;
+    width: 100%;
+    min-height: 600px;
 }
 html::-webkit-scrollbar {
-
-  width: 0;
-
+    width: 0;
 }
-body{
-  font-family: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
-  color: rgba(0,0,0,0.75);
-}  
+html:not(.dark) {
+    body {
+        font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI,
+            Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji,
+            Segoe UI Symbol;
+        color: rgba(0, 0, 0, 0.75);
+    }
+}

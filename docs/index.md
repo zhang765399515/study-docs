@@ -19,13 +19,14 @@ hero:
 
 features:
   - icon: 📊
+    title: Gis案例
+    details: 基于Cesium封装的案例集合。
+    link: http://121.41.227.80:18005/
+    linkText: 前往查看
+  - title: 📓
     title: 大屏EChart案例
     details: 关于地质大数据实际项目切图，带自适应。
     link: http://121.41.227.80:8002/
     linkText: 前往查看
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

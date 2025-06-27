@@ -4,6 +4,10 @@ export default [
         collapsed: false,
         items: [
             {
+                text: "Solid原则",
+                link: "/markdown/webFrame/WebBase/JS/Base/Solid",
+            },
+            {
                 text: "设计模式",
                 collapsed: false,
                 items: [

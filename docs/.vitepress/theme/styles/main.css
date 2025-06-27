@@ -50,6 +50,12 @@ html.dark {
 .custom-block.tip code{
   width: 100%;
 }
+html:not(.dark) {
+  strong{
+    color: rgba(0,0,0,1);
+  }
+}
+
 ol{
   padding-left: 30px !important;
 }
@@ -61,7 +67,4 @@ p + ul{
 }
 ul ul{
   list-style: circle !important;
-}
-strong{
-  color: rgba(0,0,0,1);
 }
